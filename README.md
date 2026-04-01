@@ -18,7 +18,7 @@ It helps export sales teams generate emails for common trade scenarios such as f
 
 Vic Mail currently includes preset support for these OpenAI-compatible providers:
 
-- MiniMaxi China: `https://api.minimaxi.com/v1` + `MiniMax-M2.1`
+- MiniMax China: `https://api.minimaxi.com/v1` + `MiniMax-M2.1`
 - DeepSeek: `https://api.deepseek.com` + `deepseek-chat`
 - Kimi / Moonshot: `https://api.moonshot.cn/v1` + `kimi-k2`
 - Qwen / DashScope: `https://dashscope.aliyuncs.com/compatible-mode/v1` + `qwen-plus`
@@ -70,7 +70,7 @@ npm run build:desktop
 
 Installer output:
 
-- `release/Vic Mail Setup 0.1.0.exe`
+- `release/Vic Mail Setup 0.2.0.exe`
 
 ## Repository Notes
 

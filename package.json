@@ -4,7 +4,7 @@
   "description": "Windows desktop app for drafting global trade emails with MiniMax API.",
   "author": "Codex for Gansu Huamu Foods",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "main": "electron/main.cjs",
   "scripts": {
@@ -17,6 +17,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "docx": "^9.5.1",
     "openai": "^6.33.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
@@ -57,6 +58,7 @@
       "createStartMenuShortcut": true
     },
     "win": {
+      "icon": "build/icon.ico",
       "target": [
         "nsis"
       ]
